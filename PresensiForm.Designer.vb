@@ -180,10 +180,10 @@ Partial Class PresensiForm
         ' 
         dataPresensiGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         dataPresensiGrid.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4, Column5, Column6})
-        dataPresensiGrid.Location = New Point(35, 567)
+        dataPresensiGrid.Location = New Point(528, 66)
         dataPresensiGrid.Name = "dataPresensiGrid"
         dataPresensiGrid.RowHeadersWidth = 62
-        dataPresensiGrid.Size = New Size(964, 225)
+        dataPresensiGrid.Size = New Size(965, 483)
         dataPresensiGrid.TabIndex = 16
         ' 
         ' Column1
@@ -241,7 +241,7 @@ Partial Class PresensiForm
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1047, 836)
+        ClientSize = New Size(1519, 836)
         Controls.Add(dataPresensiGrid)
         Controls.Add(simpanPresensiButton)
         Controls.Add(hapusPresensiButton)
