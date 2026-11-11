@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.PBL_PV_AI.nilai
+            Me.MainForm = Global.PBL_PV_AI.NilaiForm
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _

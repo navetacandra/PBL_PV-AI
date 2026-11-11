@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class nilai
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class NilaiForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,12 @@ Partial Class nilai
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         DataGridView1 = New DataGridView()
+        Kode_MK = New DataGridViewTextBoxColumn()
+        Nama_Matkul = New DataGridViewTextBoxColumn()
+        Nilai1 = New DataGridViewTextBoxColumn()
         Panel1 = New Panel()
         Button2 = New Button()
         Button1 = New Button()
@@ -32,9 +35,6 @@ Partial Class nilai
         Label2 = New Label()
         ComboBox1 = New ComboBox()
         Label1 = New Label()
-        Kode_MK = New DataGridViewTextBoxColumn()
-        Nama_Matkul = New DataGridViewTextBoxColumn()
-        Nilai1 = New DataGridViewTextBoxColumn()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         SuspendLayout()
@@ -48,6 +48,27 @@ Partial Class nilai
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.Size = New Size(428, 430)
         DataGridView1.TabIndex = 0
+        ' 
+        ' Kode_MK
+        ' 
+        Kode_MK.HeaderText = "Kode MK"
+        Kode_MK.MinimumWidth = 6
+        Kode_MK.Name = "Kode_MK"
+        Kode_MK.Width = 125
+        ' 
+        ' Nama_Matkul
+        ' 
+        Nama_Matkul.HeaderText = "Nama Mata Kuliah"
+        Nama_Matkul.MinimumWidth = 6
+        Nama_Matkul.Name = "Nama_Matkul"
+        Nama_Matkul.Width = 125
+        ' 
+        ' Nilai1
+        ' 
+        Nilai1.HeaderText = "Nilai"
+        Nilai1.MinimumWidth = 6
+        Nilai1.Name = "Nilai1"
+        Nilai1.Width = 125
         ' 
         ' Panel1
         ' 
@@ -135,30 +156,9 @@ Partial Class nilai
         Label1.TabIndex = 0
         Label1.Text = "Kode Mata Kuliah"
         ' 
-        ' Kode_MK
-        ' 
-        Kode_MK.HeaderText = "Kode MK"
-        Kode_MK.MinimumWidth = 6
-        Kode_MK.Name = "Kode_MK"
-        Kode_MK.Width = 125
-        ' 
-        ' Nama_Matkul
-        ' 
-        Nama_Matkul.HeaderText = "Nama Mata Kuliah"
-        Nama_Matkul.MinimumWidth = 6
-        Nama_Matkul.Name = "Nama_Matkul"
-        Nama_Matkul.Width = 125
-        ' 
-        ' Nilai1
-        ' 
-        Nilai1.HeaderText = "Nilai"
-        Nilai1.MinimumWidth = 6
-        Nilai1.Name = "Nilai1"
-        Nilai1.Width = 125
-        ' 
         ' nilai
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(994, 647)
         Controls.Add(Panel1)

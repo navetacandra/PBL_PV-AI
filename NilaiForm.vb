@@ -1,6 +1,6 @@
-﻿Public Class nilai
+﻿Public Class NilaiForm
 
-    Private Sub nilai_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub NilaiForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Tidak perlu Columns.Add karena kolom sudah dibuat via Designer
     End Sub
 
